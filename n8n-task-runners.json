@@ -1,0 +1,15 @@
+{
+  "python": {
+    "enabled": true,
+    "allowList": [
+      "sys",
+      "os",
+      "json",
+      "math",
+      "datetime",
+      "requests",
+      "pandas",
+      "numpy"
+    ]
+  }
+}
