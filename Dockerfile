@@ -4,7 +4,7 @@ FROM python:3.11-alpine AS pybuilder
 RUN pip install --no-cache-dir requests pandas numpy
 
 # ---------- stage 2: n8n runner ----------
-FROM n8nio/runners:2.1.5
+FROM n8nio/runners:2.2.3
 
 USER root
 
